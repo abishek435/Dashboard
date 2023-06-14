@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;  
+}
+.nav{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.logo{
+   
+    background-image: url(https://cdn.octopix.in/uploads/company-logo/2018/01/11/besant-technologies-yamP7LlZEcgDiNdxbuGyZLBve8Sz8FzGQWvXHRXm4d1l2dTcIzLHlndzu69CLIiBEOymFvIJJI6KWYXE-350x350.png);
+    background-position-y:-145px ;
+    background-position-x:-60px ;
+    width: 17%;
+    height: 60px;
+    margin: auto;
+    margin-left: 5px;
+}
+.search{
+   
+    width: 63%;
+    height: 70px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.search input:hover, .search input:focus {
+    background-color: rgba(218, 215, 43, 0.568);
+  }
+.search input{
+    width: 70%;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border:none;
+    background-color: azure;
+    padding: 10px;
+    color: black;
+}
+.icon{  
+    position:relative ;
+    left: -30px;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+}
+.fa-sharp{
+    font-size: 25px;
+    color: black;  
+}
+.profileName{
+    width: 15%;
+    height: 70px;
+    margin-left: 5px;
+}
+.profileName h1{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 20px;
+   font-family:cursive;
+   color: #1a1b1ae8;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-image: url(avatar\ image.png);
+    background-size: 100%;
+    overflow: hidden;
+    color: white;
+    width: 55px;
+    height: 55px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 40px;
+    cursor: pointer;
+  } 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 115px;
+    align-items: center;
+    border-radius: 15px;
+    overflow: auto;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  
+  .dropdown-content a{
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(116, 67, 67, 0.05);
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .dropdown a:hover {color: rgba(218, 215, 43, 0.568);}
+  
+  .show {display: block;}
+  .action{
+    display: flex;
+  }
